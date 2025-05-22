@@ -26,8 +26,21 @@ footer {
 }
 
 .passioni {
-    height: 80vh;
+    height: 130vh;
     background-color: lightskyblue;
+}
+
+/* Style for cards */
+.passioni .card {
+    height: 100%;
+    width: 20rem;
+    margin: 1rem;
+}
+
+/* Style for card images */
+.passioni .card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 .foglio {
